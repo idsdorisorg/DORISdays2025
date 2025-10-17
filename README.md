@@ -28,8 +28,8 @@ cd AcademicSoftware
 2. Create a Virtual Environment (Optional)
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
 3. Install  [Hatch](https://hatch.pypa.io/)
