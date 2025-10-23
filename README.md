@@ -29,7 +29,7 @@ git clone https://github.com/idsdorisorg/DORISdays2025.git
 cd DORISdays2025
 ```
 
-2. Create a Virtual Environment (Optional)
+2. Create a Virtual Environment
 
 **Note that depending on your OS and setup, you may need to replace `python` with `python3`.**
 
@@ -41,10 +41,12 @@ source .venv/bin/activate
 For **Windows** users the above should be replaced with:
 ```bash
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.venv\Scripts\activate
 ```
 
 3. Upgrade build tools
+
+**Note that depending on your OS and setup, you may need to replace `pip` with `pip3`.**
 
 ```bash
 python -m pip install --upgrade pip
@@ -68,7 +70,7 @@ located): `git pull origin`. No other step should be needed.
 The notebooks are placed under the `JupyterLab` folder. Hence, assuming jupyterlab 
 is available on your system (if not, `pip install jupyterlab` would do it) the following 
 command should launch a local web server and open JupyterLab in your browser 
-`jupyter lab --notebook-dir=JupiterLab/` (from the top-level directory).
+`jupyter lab --notebook-dir=JupyterLab/` (from the top-level directory).
 
 ## A note on data
 
