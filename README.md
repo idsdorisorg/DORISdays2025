@@ -1,6 +1,11 @@
-# AcademicSoftware
+# [DORIS DAYS 2025] Jupyter Notebooks for Hands On Sessions
 
-This repository is meant to accompany Geodesy and Satellite Geodesy courses offered by DSO. It consists of:
+[![DORIS DAYS 2025](assets/logo_DD_2025.png)](https://ids-doris.org/ids/meetings/ids-meetings.html%20)
+
+This repository is meant to hold source code for the "hands-on" sessions that will take 
+place during the [DORIS DAYS 2025](https://ids-doris.org/ids/meetings/ids-meetings.html%20) in NTUA, Athens.
+
+The repository contains:
  - a *core* python module named `dsoclasses`, on top of which
  - a list of [Jupyter Notebooks](https://jupyter.org/) are available, showcasing trivial space geodesy data analysis tasks.
 
