@@ -7,15 +7,13 @@ place during the [DORIS DAYS 2025](https://ids-doris.org/ids/meetings/ids-meetin
 
 The repository contains:
  - a *core* python module named `dsoclasses`, on top of which
- - a list of [Jupyter Notebooks](https://jupyter.org/) are available, showcasing trivial space geodesy data analysis tasks.
+ - a list of [Jupyter Notebooks](https://jupyter.org/) are available, showcasing trivial DORIS data analysis tasks.
 
 To use the Notebooks, you need to install the core python module.
 
 ## Installation of `dsoclasses` module
 
-This guide walks you through installing the `dsoclasses` Python module from source, 
-using [Hatch](https://hatch.pypa.io/).
-
+This guide walks you through installing the `dsoclasses` Python module from source.
 
 0. Prerequisites
 
@@ -59,14 +57,20 @@ pip install -e .
 ```
 
 ### Updating
-Run the following command from the root of the project (where the `pyproject.toml` is located): `git pull origin`
+
+To fetch latest changes and/or additions to the online repository, you will need to 
+run the following command from the root of the project (where the `pyproject.toml` is 
+located): `git pull origin`. No other step should be needed.
 
 
 ## Jupyter Notebooks
 
-The notebooks are placed under the `JupiterLab` folder. Hence, assuming jupyterlab is available on your system (if not, `pip install jupyterlab` would do it) the following command should 
-launch a local web server and open JupyterLab in your browser `jupyter lab --notebook-dir=JupiterLab/` (from the top-level directory).
+The notebooks are placed under the `JupyterLab` folder. Hence, assuming jupyterlab 
+is available on your system (if not, `pip install jupyterlab` would do it) the following 
+command should launch a local web server and open JupyterLab in your browser 
+`jupyter lab --notebook-dir=JupiterLab/` (from the top-level directory).
 
 ## A note on data
 
-The notebooks use data to showcase different analysis tasks. The data though are not distributed with the project, and you'll have to download them youself. You can conviniently place them at a `data/` top-level directory, or anywhere else you see fit. The actual filenames that appear on the notebooks are not (supposed to be) binding; its up to the user selection.
+This repository comes with a few data files that are needed to run the examples presented in 
+the notebooks. Alternate or updated data should be seeked at the dedicated web repositories.
