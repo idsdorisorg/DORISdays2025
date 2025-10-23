@@ -76,3 +76,10 @@ command should launch a local web server and open JupyterLab in your browser
 
 This repository comes with a few data files that are needed to run the examples presented in 
 the notebooks. Alternate or updated data should be seeked at the dedicated web repositories.
+
+## Bugs & Troubleshooting
+
+If you encounter any problems, please contact:
+* IDS Central Bureau ids.central.bureau at ids-doris.org,
+* Xanthos Papanikolaou xanthos@mail.ntua.gr,
+* Prof. Dimitris Anastasiou danastasiou@mail.ntua.gr
