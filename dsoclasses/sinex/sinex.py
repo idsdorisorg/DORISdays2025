@@ -246,7 +246,7 @@ def extract_sinex_coordinates(sinex_fn, site_list, epoch, apply_eccentricity=Fal
                     result[site]['soln'] = solnp
             except:
                 print(
-                    f"Warning! Failed finding valid coordinates ({cmp}) for site {site} at {epoch.strftime("%Y-%m-%d %H:%M:%S")}"
+                    f"Warning! Failed finding valid coordinates ({cmp}) for site {site} at {epoch.strftime('%Y-%m-%d %H:%M:%S')}"
                 )
     # remove sites with no coordinates
     result = {k: v for k, v in result.items() if v}
